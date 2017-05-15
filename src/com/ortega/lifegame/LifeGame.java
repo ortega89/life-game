@@ -29,7 +29,7 @@ public class LifeGame implements Runnable {
 		drawCell(fullCell, FULL_CELL_COLOR, FULL_CELL_COLOR.brighter(), FULL_CELL_COLOR.darker());
 				
 		frame = new JFrame(makeTitleWithDelay(200));
-		frame.setType(Type.UTILITY);
+		frame.setType(Type.NORMAL);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		//The LifePanel is my canvas where I draw
